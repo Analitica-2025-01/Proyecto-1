@@ -44,6 +44,8 @@ def register_callbacks(app):
             return home.layout
 
     visualizacion.register_visualizacion_callbacks(app)
+        # Registrar el callback de analizador
+    analizador.register_analizador_callbacks(app)
 
     @app.callback(
         Output("predicted-price", "children"),
