@@ -9,7 +9,7 @@ sources = ['RentLingo', 'Listanza', 'ListedBuy', 'RentDigs.com', 'GoSection8', '
 
 # Layout con formulario
 layout = html.Div([
-    html.H1("Predictor de Precios",  style={'font-weight': 'bold', 'textAlign': 'center'}),
+    html.H1("Predictor de Precios", style={'font-weight': 'bold', 'textAlign': 'center'}),
     html.Div(style={'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'}, children=[
         html.Div([
             html.Img(src="/assets/apartamento2.png", style={'width': '100%', 'maxWidth': '500px', 'borderRadius': '10px'})
@@ -76,4 +76,3 @@ layout = html.Div([
         style={'textAlign': 'center', 'color': '#5A3E91', 'fontWeight': 'bold', 'marginTop': '20px'}
     )
 ])
-
