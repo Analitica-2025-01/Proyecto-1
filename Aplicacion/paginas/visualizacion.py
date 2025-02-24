@@ -5,7 +5,7 @@ import pandas as pd
 from dash.dependencies import Input, Output
 
 # Cargar datos
-file_path = 'datos_apartamentos_rent.csv'
+file_path = 'df_william.csv'
 df = pd.read_csv(file_path, encoding='cp1252', sep=';')
 df = df.dropna(subset=['latitude', 'longitude', 'price'])
 
