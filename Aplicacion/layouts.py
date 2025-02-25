@@ -5,7 +5,7 @@ navbar = dbc.Navbar(
     dbc.Container([
         html.A(
             dbc.Row([
-                dbc.Col(dbc.NavbarBrand("Inmobiliaria de los Andes", className="ms-2",href="/home")),
+                dbc.Col(dbc.NavbarBrand("🏢Inmobiliaria de los Andes", className="ms-2",href="/home")),
             ], align="center", className="g-0"),
             href="#",
             style={"textDecoration": "none"}
